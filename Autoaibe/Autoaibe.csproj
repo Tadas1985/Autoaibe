@@ -56,12 +56,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Drivers\Browsers.cs" />
+    <Compile Include="Drivers\CustomDriver.cs" />
     <Compile Include="Page\AutoaibeCarDetailPage.cs" />
+    <Compile Include="Page\AutoaibeCheckoutPage.cs" />
     <Compile Include="Page\AutoaibePage.cs" />
     <Compile Include="Page\BasePage.cs" />
+    <Compile Include="Page\DiscBrakePage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Test\AutoaibeCarDetailTest.cs" />
+    <Compile Include="Test\AutoAibeCheckOutTest.cs" />
     <Compile Include="Test\AutoaibeTest.cs" />
+    <Compile Include="Test\BaseTest.cs" />
+    <Compile Include="Test\DiscBrakeTest.cs" />
+    <Compile Include="Tools\MyScreenshot.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
